@@ -20,3 +20,5 @@ El resultado es el siguiente:
 
 
 
+
+Usar el script de la bd para guardar las transacciones generadas por el servicio y validar al autenticación con la tabla users.
