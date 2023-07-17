@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>1cea917a-c899-43f6-a4dc-431c86f12fa5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="6.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="6.0.5" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="6.0.5" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.0" />
+    <PackageReference Include="WatchDog.NET" Version="1.4.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Delosi.Application.Interface\Delosi.Application.Interface.csproj" />
+    <ProjectReference Include="..\Delosi.Application.Main\Delosi.Application.Main.csproj" />
+    <ProjectReference Include="..\Delosi.Application.Validator\Delosi.Application.Validator.csproj" />
+    <ProjectReference Include="..\Delosi.Domain.Core\Delosi.Domain.Core.csproj" />
+    <ProjectReference Include="..\Delosi.Infrastructure.Data\Delosi.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Delosi.Infrastructure.Repository\Delosi.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\Delosi.Transversal.Logging\Delosi.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\Delosi.Transversal.Mapper\Delosi.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

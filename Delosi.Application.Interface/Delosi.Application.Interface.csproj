@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Delosi.Application.DTO\Delosi.Application.DTO.csproj" />
+    <ProjectReference Include="..\Delosi.Transversal.Common\Delosi.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

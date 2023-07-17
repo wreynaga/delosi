@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Delosi.Domain.Interface\Delosi.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Delosi.Infrastructure.Interface\Delosi.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

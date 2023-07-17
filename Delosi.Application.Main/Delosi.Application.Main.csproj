@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Delosi.Application.Interface\Delosi.Application.Interface.csproj" />
+    <ProjectReference Include="..\Delosi.Application.Validator\Delosi.Application.Validator.csproj" />
+    <ProjectReference Include="..\Delosi.Domain.Interface\Delosi.Domain.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
